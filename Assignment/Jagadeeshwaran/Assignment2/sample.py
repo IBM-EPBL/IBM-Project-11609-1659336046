@@ -6,7 +6,7 @@ from flask_login import login_user, current_user, LoginManager, UserMixin, logou
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'super secret key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = "db2://824dfd4d-99de-440d-9991-629c01b3832d.bs2io90l08kqb1od8lcg.databases.appdomain.cloud:30119/bludb:user=wgm09612;password=h0i0L1VmjpNBDhoK;sslConnection=true;"
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
