@@ -295,4 +295,4 @@ public class BackgroundWorker extends Worker {
         // set shared preference false
         MiscSharedPreferences.setBgWorkerStatus(getApplicationContext(), false);
     }
-}vvvvvvvvvvvvvvvvvvvvv
+}

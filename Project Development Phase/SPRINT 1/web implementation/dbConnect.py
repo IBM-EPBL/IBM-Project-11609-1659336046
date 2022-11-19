@@ -19,7 +19,7 @@ def homer():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     msg = ''
-    if request.method == 'post':
+    if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
         sql = "SELECT * FROM users WHERE username=? AND password=?"

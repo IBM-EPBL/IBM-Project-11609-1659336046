@@ -92,4 +92,4 @@ service to track location on background
 
         Log.d(LogTags.Service_TAG, "onDestroy: service destroyed!");
     }
-}vvvvv
+}
